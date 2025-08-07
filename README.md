@@ -1,2 +1,2 @@
-# Basic-HTML-
+# Basic-HTML-Resume-Project
 This repository contains basic HTML programs and templates for beginners.
