@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal info</title>
+    <link rel="icon" href="emc.png">
+</head>
+<body bgcolor="yellow" align="center">
+    <form>
+    <h1>📝<ins><span  style="color:blue">Personal Details</span></ins>📝</h1>
+    <h4>
+    <table align="center" style="border:1px #000 solid;">
+        <tr>
+            <td colspan="2">
+                <marquee behavior="alternate" direction="right" bgcolor="blue" style="color:white">Created by Sandy</marquee>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="your name">Name:</label></td>
+            <td align="left"><input type="text" name="your name" id="your name" placeholder="Enter your name" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email" >Emali:</label></td>
+            <td align="left"><input type="email" name="email" id="email" placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+            <td><label for="pwd" >Password:</label></td>
+            <td align="left"><input type="password" name="password" id="pwd" placeholder="Enter your password" minlength="6" maxlength="15"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender" >Gender:</label>
+                <td align="left">
+                    <input type="radio" name="gender" id="gender">Male
+                    <input type="radio" name="gender" id="gender">Female
+
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age" >Age:</label></td>
+            <td align="left"><input type="number" name="age" id="age" min="18" max="30"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">DOB</label></td>
+            <td align="left"><input type="date" name="dob" id="dob"></td>
+        </tr>
+        <tr>
+            <td><label for="qualification">Education:</label></td>
+            <td align="left"><select name="qualification" id="qualification">
+                <option value="degree">Select Degree</option>
+                <option value="B.E">B.E</option>
+                <option value="M.E">M.E</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Ph number:</label></td>
+            <td align="left"><input type="tel" name="phone" id="phone"></td>
+        </tr>
+        <tr>
+            <td><label for="intrest">Field of intrest</label></td>
+            <td align="left">
+                <input type="checkbox" name="intrest" id="intrest">Software
+                <input type="checkbox" name="intrest" id="intrest">Hardware
+            </td>
+        </tr>
+        <tr>
+            <td><label for="comment">Add comments:</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="left"><textarea cols="45" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td for="url">URL:</td>
+            <td align="left"><input type="url" name="url" id="url"></td>
+        </tr>
+        <tr>
+            <td><label for="soure">Attach file:</label></td>
+            <td><input type="file" name="source" id="source"></td>
+        </tr>
+        <tr>
+            <td align="right">
+                <input type="submit">
+            </td>
+            <td >
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+    </h4>
+    </form>
+    
+</body>
+</html>
